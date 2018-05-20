@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_hitam"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/iv_gofood"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/menu_gofood"
+            android:layout_weight="1"
+            android:onClick="Pindahojek"/>
+       <ImageView
+            android:id="@+id/iv_gosend"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/menu_gosend"
+            android:layout_weight="1"
+            android:onClick="Pindahgosend"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_gofood"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="GoFood"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tv_gosend"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="GoSend"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/iv_goride"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/menu_goride"
+            android:layout_weight="1"
+            android:onClick="Pindahgoride"/>
+       <ImageView
+            android:id="@+id/iv_gomart"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/menu_gomart"
+            android:layout_weight="1"
+            android:onClick="Pindahmart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_goride"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="GoRide"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tv_gomart"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="GoMart"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
